@@ -48,7 +48,7 @@ data.forEach(function(tableData) {
 
 // Select button & form
 var filterButton = d3.select("button#filter-btn");
-var form = d3.select("#filters");
+var form = d3.select("#form");
 
 // Event handlers 
 filterButton.on("click", runEnter);
